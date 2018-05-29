@@ -1,0 +1,129 @@
+@charaset "UTF-8" ;
+
+body{
+    line-height: 2 ;
+    font-family: serif ;
+    background: #f8eadc ;
+}
+
+/*リンク擬似クラスの設定*/
+nav a:link{
+    color: #4e3e2c ;
+    text-decoration: none ;
+}
+
+nav a:visited{
+    color: #f39832 ; 
+    text-decoration:none ;
+}
+
+nav a:hover{
+    color: #eae6c6 ;
+    text-decoration: underline;
+    background: #552b00 ;
+}
+
+nav a:active{
+    color: #ffffff ;
+    text-decoration: underline;
+}
+
+nav ul li a{
+    width: 100% ;
+    height: 100% ;
+    display: block ;
+}
+
+li {
+    list-style: none ;   
+}
+
+main{
+    width: 1000px ;
+    margin: 0 auto ;
+    background: #fdfaf7;
+    border-radius: 100px 3px ;
+}
+
+header{
+    position: relative ;
+    height: 100px ;
+    background: #472b0e ;
+    padding: 20px ;
+    border-radius: 100px 0 0 0 ;
+
+}
+header h1 {
+    font-size: 50px ;
+    padding-left: 20px ;
+    text-shadow: 2px 2px 10px 	#fcfaf8 ;
+}
+
+nav{
+    position: fixed ;
+    top : 0 ;
+}
+
+nav ul li {
+    height: 50px ;
+    float: left ;
+    width: 200px ;
+    text-align: center ;
+    background: #fcf4ed ;
+    line-height: 50px ;
+}
+nav ul li:nth-child(odd){
+    background: #eabf95 ;
+}
+
+figure img{
+    margin: 10px auto
+}
+
+article{
+    width: 650px ;
+    float:left ;
+    margin-bottom: 30px ;
+}
+article .news{
+    padding: 10px ;
+    border: 5px groove #d5bfaa ;
+}
+
+
+aside{
+    width: 300px ;
+    float: right ;
+}
+aside ul li{
+    border:1px dotted #333333 ;
+    margin: 5px ;
+}
+
+footer{
+    clear: both ;
+    height: 100px ;
+    background: #472b0e ;
+    padding: 20px ;
+    text-align: right ;
+    text-shadow: 2px 2px 10px #fcfaf8 ;
+        border-radius: 0 0 100px 0 ;
+}
+#snsbox{
+    width : 60px ;
+    position: absolute ;
+    right: 0 ;
+    top: 50px ;
+}
+#sns1,#sns2{
+    width: 30px ;
+    height: 30px ;
+    float:left ;
+    text-align: center;
+}
+#sns1{
+    background: red ;
+}
+#sns2{
+    background: yellow ;
+}
